@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xxxhdpibackground">
+
+    <!-- Return arrow -->
+    <ImageButton
+        android:id="@+id/backBtn_page3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@android:drawable/ic_menu_revert" />
+
+    <!-- Reset button -->
+    <Button
+        android:id="@+id/resetBtn_page3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Reset"
+        android:layout_marginTop="16dp" />
+
+    <!-- Counter 1 -->
+    <LinearLayout
+        android:id="@+id/counterLayout1_page3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/counterLayout2_page3"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/minusBtn1_page3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/counter1_page3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="24sp"
+            android:layout_margin="16dp" />
+
+        <Button
+            android:id="@+id/plusBtn1_page3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <!-- Counter 2 -->
+    <LinearLayout
+        android:id="@+id/counterLayout2_page3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/minusBtn2_page3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/counter2_page3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="24sp"
+            android:layout_margin="16dp" />
+
+        <Button
+            android:id="@+id/plusBtn2_page3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <!-- Counter 3 -->
+    <LinearLayout
+        android:id="@+id/counterLayout3_page3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/counterLayout2_page3"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/minusBtn3_page3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/counter3_page3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="24sp"
+            android:layout_margin="16dp" />
+
+        <Button
+            android:id="@+id/plusBtn3_page3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnPage1"
+        android:layout_width="680px"
+        android:layout_height="216px"
+        android:background="@drawable/empira"
+        android:layout_above="@id/btnPage2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp" />
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xxxhdpibackground">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="This is not an official product of Wartide. Please check them out on Kickstarter or their official website."
+        android:textAlignment="center"
+        android:textColor="#F6EFEF"
+        android:textIsSelectable="false"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/btnPage3"
+        android:layout_width="680px"
+        android:layout_height="216px"
+        android:background="@drawable/empira"
+        android:layout_above="@id/editTextText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnPage2"
+        android:layout_width="680px"
+        android:layout_height="216px"
+        android:background="@drawable/keg"
+        android:layout_above="@id/btnPage3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnPage1"
+        android:layout_width="680px"
+        android:layout_height="216px"
+        android:background="@drawable/noil"
+        android:layout_above="@id/btnPage2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+</RelativeLayout>
