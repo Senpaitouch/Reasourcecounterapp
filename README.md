@@ -1,4 +1,4 @@
-# Reasourcecounterapp
+# Resourcecounterapp
 To install see below
 Installing from Unknown Sources
 To install the app, you may need to allow installation from unknown sources:
