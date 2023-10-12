@@ -19,10 +19,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:background="?android:attr/selectableItemBackground"
         android:text="Reset"
-        android:layout_marginTop="16dp" />
+        android:textColor="#6A6666" />
 
     <!-- Counter 1 -->
     <LinearLayout
@@ -30,8 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_above="@+id/counterLayout2_page3"
-        android:layout_marginBottom="16dp"
+        android:layout_marginTop="325dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -45,9 +45,14 @@
             android:id="@+id/counter1_page3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
             android:text="0"
-            android:textSize="24sp"
-            android:layout_margin="16dp" />
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/plusBtn1_page3"
@@ -62,7 +67,9 @@
         android:id="@+id/counterLayout2_page3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_below="@+id/counterLayout1_page3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -76,9 +83,10 @@
             android:id="@+id/counter2_page3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="16dp"
             android:text="0"
-            android:textSize="24sp"
-            android:layout_margin="16dp" />
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/plusBtn2_page3"
@@ -93,9 +101,9 @@
         android:id="@+id/counterLayout3_page3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/counterLayout2_page3"
-        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -109,9 +117,10 @@
             android:id="@+id/counter3_page3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="16dp"
             android:text="0"
-            android:textSize="24sp"
-            android:layout_margin="16dp" />
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/plusBtn3_page3"
@@ -128,5 +137,5 @@
         android:background="@drawable/empira"
         android:layout_above="@id/btnPage2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="550dp" />
+        android:layout_marginTop="625dp" />
 </RelativeLayout>

@@ -20,10 +20,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:background="?android:attr/selectableItemBackground"
         android:text="Reset"
-        android:layout_marginTop="16dp" />
+        android:textColor="#6A6666" />
 
     <!-- Counter 1 -->
     <Button
@@ -40,9 +41,10 @@
         android:id="@+id/counter1_page1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:text="0"
-        android:textSize="24sp"
-        android:layout_centerInParent="true" />
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/plusBtn1_page1"
